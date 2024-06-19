@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Pricing Plans</h1>
+        <p>Select the plan that fits your needs.</p>
+        <label class="toggle">
+            <input type="checkbox" id="pricing-toggle">
+            <span class="slider"></span>
+            <span class="label-monthly">Monthly</span>
+            <span class="label-yearly">Yearly</span>
+        </label>
+    </header>
+    <main class="pricing-container">
+        <div class="pricing-card">
+            <h2>Basic Plan</h2>
+            <p class="price" data-monthly="10" data-yearly="100">$10/month</p>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+            <button>Choose Plan</button>
+        </div>
+        <div class="pricing-card">
+            <h2>Standard Plan</h2>
+            <p class="price" data-monthly="20" data-yearly="200">$20/month</p>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li>Feature 4</li>
+            </ul>
+            <button>Choose Plan</button>
+        </div>
+        <div class="pricing-card">
+            <h2>Premium Plan</h2>
+            <p class="price" data-monthly="30" data-yearly="300">$30/month</p>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li>Feature 4</li>
+                <li>Feature 5</li>
+            </ul>
+            <button>Choose Plan</button>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
